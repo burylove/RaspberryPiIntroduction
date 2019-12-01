@@ -112,13 +112,13 @@ vcgencmd命令，用于和树 莓派硬件直接互动
 ## 1. 图形化的文本编辑器:
 (没啥好记的)
 ## 2. nano:
-    ### 2.1 启用:
-    ```shell    
-    $ nano test.txt
-    ```
-    nano后面跟着想要修改的文件名。如果当前文件夹下存在名为test.txt的文件，则该命令将打开这个文件。否则，命令nano会创建一 个新文件。
+### 2.1 启用:
+```shell    
+$ nano test.txt
+```
+nano后面跟着想要修改的文件名。如果当前文件夹下存在名为test.txt的文件，则该命令将打开这个文件。否则，命令nano会创建一 个新文件。
 
-    ### 2.2 常用操作:
+### 2.2 常用操作:
 |操作|说明|
 |-|-|
 |Ctrl+O|保存文件|
@@ -133,15 +133,15 @@ vcgencmd命令，用于和树 莓派硬件直接互动
 *注:*
 在提示中，^表示Ctrl键，M表示Alt键。因此，^G表示的就是同时 按下Ctrl键和G键。下面是一些常用的功能键。 
 
-    ### 2.3 语法高亮:
-    nano可以支持语法高亮，从而更好地服务于编程。为了使语法高 亮，首先要安装语法高亮文件
-    ```shell
-    $ git clone https://github.com/nanorc/nanorc.git
-    $ cd nanorc
-    $ make install
-    ```
-    安装完成后，可以看到~/.nano/syntax下多了很多语法高亮文件.
-    每个文件代表了对一种语言的语法高亮支持。比如python.nanorc， 就包含了对Python语言的语法高亮支持。将语法高亮文件添加 到~/.nanorc中，就能让nano启动对相应语言的语法高亮支持
+### 2.3 语法高亮:
+nano可以支持语法高亮，从而更好地服务于编程。为了使语法高 亮，首先要安装语法高亮文件
+```shell
+$ git clone https://github.com/nanorc/nanorc.git
+$ cd nanorc
+$ make install
+```
+安装完成后，可以看到~/.nano/syntax下多了很多语法高亮文件.
+每个文件代表了对一种语言的语法高亮支持。比如python.nanorc， 就包含了对Python语言的语法高亮支持。将语法高亮文件添加 到~/.nanorc中，就能让nano启动对相应语言的语法高亮支持
 
 
 
